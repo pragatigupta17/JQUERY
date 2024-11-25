@@ -5,6 +5,11 @@ $(document).ready(
          {
             alert("clicked")
          })
+         $('h2').onload(function()
+         {
+            alert("double clicked ....!")
+         })
 
 }
+
 )
